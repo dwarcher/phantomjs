@@ -190,6 +190,7 @@ function getRequestOptions(conf) {
     uri: downloadUrl,
     encoding: null, // Get response as a buffer
     followRedirect: true, // The default download path redirects to a CDN URL.
+    strictSSL: false,
     headers: {}
   }
 
